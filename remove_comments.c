@@ -1,10 +1,10 @@
 #include "hsh.h"
 
 /**
- * remove_reply - remove comments (#) from a command
+ * remove_comments - remove comments (#) from a command
  * @cmd: pointer to the cmd to process
  */
-void remove_reply(cmdlist_t *cmd)
+void remove_comments(cmdlist_t *cmd)
 {
 	char **tokens, **new, *tmp;
 
